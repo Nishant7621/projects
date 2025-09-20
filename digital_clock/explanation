@@ -1,0 +1,13 @@
+It’s a JavaScript digital clock that updates every second.
+
+The time is fetched using new Date().
+
+It converts 24-hour format to 12-hour format with AM/PM.
+
+Leading zeros are added if hours, minutes, or seconds are less than 10.
+
+The time is displayed in an HTML element with the class .clock.
+
+setInterval(runClock, 1000) ensures the clock refreshes every second.
+
+So overall, the code continuously displays the current time in HH : MM : SS AM/PM format inside the webpage.
