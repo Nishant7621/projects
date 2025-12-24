@@ -1,0 +1,6 @@
+Project Summary
+Algorithmic Pathfinding Visualizer: Dijkstra vs. Bellman-Ford Developed
+an interactive web-based dashboard that visualizes and compares the efficiency of two fundamental graph 
+traversal algorithms—Dijkstra and Bellman-Ford—using real-world geospatial data. The application allows users
+to dynamically select start and end points on an interactive map to observe how different "edge costs" (such
+as driving vs. cycling/walking) affect path selection and total distance.
