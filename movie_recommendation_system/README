@@ -1,0 +1,7 @@
+This project is a content-based Movie Recommendation System developed using Python and 
+the TMDB dataset. It recommends similar movies based on a user’s selection by analyzing 
+movie features such as genres, keywords, cast, and overview. The system uses machine learning 
+techniques with cosine similarity and stores preprocessed data and similarity matrices using
+pickle files for faster execution. The project is implemented in PyCharm using popular
+Python libraries like Pandas, NumPy, and Scikit-learn, and is designed to be simple, efficient,
+and easily extendable for future enhancements such as web deployment or API integration
