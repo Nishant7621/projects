@@ -1,0 +1,9 @@
+streamlit~=1.52.2
+folium~=0.20.0
+requests~=2.32.5
+networkx
+pandas
+numpy
+geopandas
+shapely
+streamlit-folium
