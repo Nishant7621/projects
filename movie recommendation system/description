@@ -1,0 +1,69 @@
+🎬 Movie Recommendation System (Content-Based Filtering)
+📌 Project Description
+
+Developed a Movie Recommendation System that suggests similar movies to users based on content similarity. 
+The system leverages machine learning techniques and vector similarity to provide personalized recommendations 
+using preprocessed datasets stored in movie.pkl and similarity.pkl.
+
+🧠 Model & Approach
+
+This project uses a Content-Based Filtering approach.
+
+👉 Instead of using user behavior, the system recommends movies based on:
+
+Genre
+Keywords
+Cast
+Crew
+Overview (movie description)
+⚙️ How It Works
+Data Preprocessing
+Cleaned and merged movie metadata
+Combined important features (genres, cast, etc.) into a single text column called tags
+Applied text preprocessing:
+Lowercasing
+Removing spaces
+Stemming
+Feature Extraction
+Used Bag of Words (CountVectorizer) to convert text into numerical vectors
+Created a high-dimensional vector space representation of movies
+Similarity Calculation
+Applied Cosine Similarity to measure similarity between movie vectors
+Stored the similarity matrix in similarity.pkl
+Stored processed movie data in movie.pkl
+🤖 Model Used
+Model Type: Content-Based Recommendation Model
+Algorithm:
+CountVectorizer (for text vectorization)
+Cosine Similarity (for similarity scoring)
+
+👉 This is NOT a deep learning model, but a vector space model, widely used in real-world recommendation systems.
+
+🔄 Recommendation Flow
+User selects a movie
+System retrieves its index from movie.pkl
+Looks up similarity scores from similarity.pkl
+Sorts movies based on similarity
+Returns top 5 most similar movies
+🧪 Example
+
+👉 Input: "Avatar"
+👉 Output: List of similar movies like:
+
+Guardians of the Galaxy
+John Carter
+Star Trek
+🛠️ Tech Stack
+Python
+Pandas, NumPy
+Scikit-learn
+Pickle (for model storage)
+Streamlit (for UI, if used)
+🚀 Key Features
+Fast recommendations using precomputed similarity
+Lightweight and efficient (no heavy model inference)
+Easy to scale and deploy
+Clean UI (if integrated with Streamlit)
+📦 Files Used
+movie.pkl → Contains processed movie dataset
+similarity.pkl → Stores cosine similarity matrix
