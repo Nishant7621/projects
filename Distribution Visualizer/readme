@@ -1,1 +1,19 @@
+📊 Distribution Visualizer – Full Project Description
 
+The Distribution Visualizer is an interactive data analytics application built using Python that enables users to explore and understand different
+statistical distributions through dynamic visualizations. The project focuses on simplifying complex statistical concepts by providing real-time graphical
+representations of probability distributions such as Normal, Binomial, Poisson, and Uniform.
+
+The application is developed using a modular architecture, where the core distribution logic is implemented using libraries like NumPy and SciPy,
+while visualization is handled through Matplotlib. A user-friendly interface is built using Streamlit, allowing users to interact with the application
+via sliders and controls to adjust parameters such as mean, standard deviation, probability, and number of trials.
+
+As users modify these parameters, the application dynamically updates plots including Probability Density Functions (PDF) and
+Probability Mass Functions (PMF), helping them observe how distributions change in real time. This makes the tool especially useful for
+exploratory data analysis (EDA), statistical learning, and educational purposes.
+
+Additionally, the project demonstrates key data analytics skills such as data visualization, statistical modeling, and interactive
+
+dashboard development. The codebase follows clean and modular design principles by separating logic into reusable components, improving maintainability and scalability.
+
+Future enhancements include adding real-world dataset support, comparative analysis between multiple distributions, and deployment as a web-based analytics dashboard.
