@@ -1,0 +1,57 @@
+# Bank Management System
+
+## Project Overview
+
+The Bank Management System is a web-based application developed using Python, Flask, and MySQL. The system provides a secure and efficient way to manage banking operations such as customer registration, account creation, deposits, withdrawals, balance inquiries, and account management.
+
+The project aims to automate traditional banking processes by storing customer and transaction data in a MySQL database and providing an easy-to-use interface through Flask. It demonstrates the integration of backend development, database management, and web application design.
+
+## Features
+
+* Customer Registration and Login
+* Create New Bank Accounts
+* Deposit Money
+* Withdraw Money
+* Check Account Balance
+* View Customer Details
+* Update Customer Information
+* Delete Account Records
+* Secure Database Connectivity using MySQL
+* User-Friendly Web Interface with Flask
+
+## Technologies Used
+
+* Python
+* Flask
+* MySQL
+* HTML
+* CSS
+* Jinja2 Templates
+
+## Database
+
+The project uses MySQL for data storage and management. Customer information, account details, and transaction records are securely maintained in relational database tables.
+
+## Learning Outcomes
+
+Through this project, I gained hands-on experience in:
+
+* Web development using Flask
+* Database connectivity with MySQL
+* CRUD operations (Create, Read, Update, Delete)
+* Backend application development
+* Database design and management
+* Building real-world software projects
+
+## Future Enhancements
+
+* Online fund transfer functionality
+* Transaction history and statements
+* Password encryption and authentication
+* Email and SMS notifications
+* Admin dashboard and reporting system
+* Role-based access control
+
+## Conclusion
+
+This Bank Management System project demonstrates the practical implementation of Python Flask and MySQL to develop a real-world banking application. It serves as a strong foundation for learning full-stack development and database-driven web applications.
