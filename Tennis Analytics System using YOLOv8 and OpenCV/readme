@@ -1,0 +1,91 @@
+CourtVision AI: Tennis Ball Tracking & Speed Analytics
+Project Overview
+
+CourtVision AI is a Computer Vision project that analyzes tennis match videos using YOLO and OpenCV. The system detects and tracks the tennis ball in real time and estimates ball speed based on frame-by-frame movement.
+
+This project demonstrates the application of Object Detection, Object Tracking, and Video Analytics in sports technology.
+
+
+
+                      COURTVISION AI
+          Tennis Ball Tracking & Speed Analytics
+                              │
+ ┌────────────────────────────┼────────────────────────────┐
+ │                            │                            │
+ ▼                            ▼                            ▼
+
+📹 Input Video         🏷 Dataset Creation         🤖 Model Selection
+(input_video.mp4)      (Roboflow)                (YOLOv8 / YOLOv5)
+
+                              │
+                              ▼
+
+                    📊 Data Annotation
+                    Tennis Ball Labels
+                              │
+                              ▼
+
+                    🔄 Dataset Export
+                    YOLO Format Dataset
+                              │
+                              ▼
+
+                    🧠 Object Detection
+                       hi.py
+                              │
+                              ▼
+
+                 🎾 Tennis Ball Detection
+                 Bounding Box Generation
+                              │
+                              ▼
+
+                    📍 Ball Tracking
+                      tracker.py
+                              │
+                              ▼
+
+             Extract Ball Center Coordinates
+                              │
+                              ▼
+
+                 Calculate Ball Movement
+                              │
+                              ▼
+
+                  ⚡ Speed Estimation
+                    ball_speed.py
+                              │
+                              ▼
+
+               Distance Between Frames
+                              │
+                              ▼
+
+                 Speed = Distance/Time
+                              │
+                              ▼
+
+                 🎥 Output Video Saved
+                              │
+                              ▼
+
+          📈 Future Enhancements (Planned)
+          ├── Court Keypoint Detection
+          ├── Player Detection
+          ├── Player Tracking
+          ├── Shot Classification
+          ├── Rally Analysis
+          ├── Heatmap Generation
+          └── Match Analytics Dashboard
+
+🛠 Technologies Used
+Machine Learning / Computer Vision
+YOLOv8 (Ultralytics)
+OpenCV
+NumPy
+Dataset Tools
+Roboflow
+Custom Tennis Ball Dataset
+Programming Language
+Python
