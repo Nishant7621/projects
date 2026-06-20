@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['ball', 'ball boy', 'player', 'referee', 'tennis racquet']
+
+roboflow:
+  workspace: nishant-jha-wbyic
+  project: ap-tennis-0tu3k
+  version: 3
+  license: MIT
+  url: https://universe.roboflow.com/nishant-jha-wbyic/ap-tennis-0tu3k/dataset/3
