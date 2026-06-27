@@ -1,0 +1,42 @@
+Economic & Fuel Market Analysis During the Israel–Iran Conflict
+
+Project Overview
+
+This project is an end-to-end Data Analytics solution that analyzes the global economic and energy market impact of the Israel–Iran conflict using **Python, MySQL, SQL, and Power BI**. The dashboard provides interactive insights into fluctuations in oil prices, fuel costs, inflation, shipping costs, stock market performance, trading volumes, and crisis intensity across multiple countries.
+
+The dataset was first preprocessed using Python, where data cleaning, transformation, and feature engineering were performed. The cleaned dataset was then stored in MySQL for SQL-based analysis before being connected to Power BI for interactive visualization and business intelligence reporting.
+
+The dashboard enables users to explore economic trends through dynamic filters, KPI cards, line charts, bar charts, donut charts, matrices, and other visualizations, allowing decision-makers to understand how geopolitical conflicts influence global energy markets and economic indicators.
+
+## Key Features
+
+* Data preprocessing and feature engineering using Python (Pandas & NumPy)
+* MySQL database integration for efficient data storage and querying
+* SQL queries for business and analytical insights
+* Interactive Power BI dashboard with slicers and dynamic filtering
+* KPI cards highlighting key economic indicators
+* Trend analysis of global oil prices (WTI, Brent, and OPEC)
+* Country-wise comparison of inflation, fuel prices, and trading volume
+* Stock market performance analysis over time
+* Economic Stress Index and Crisis Intensity analysis
+* Business-oriented data storytelling with interactive visualizations
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* MySQL
+* SQL
+* Power BI
+* DAX
+
+## Dashboard Insights
+
+* Monitored changes in global oil prices during the conflict period.
+* Compared inflation and fuel prices across multiple countries.
+* Evaluated crisis intensity and its relationship with economic stress.
+* Analyzed shipping costs and global oil trading volume.
+* Tracked stock market movements influenced by geopolitical events.
+
+This project demonstrates the complete data analytics workflow—from data preprocessing and database management to business intelligence visualization—making it a practical portfolio project for Data Analyst and Business Intelligence roles.
